@@ -1,0 +1,63 @@
+body{
+    margin: 10;
+    background-color :#fafafa;
+    color :#0e5527;
+    font-family: 'Poiret One', cursive;
+    font-size: 28px;
+}
+<--font-family: 'ZCOOL QingKe HuangYou', cursive;--!>
+
+a:link{
+    color: #0f743f;
+    text-decoration: none;
+}
+a:visited {color:#179553;}
+a:active {color:#179553;}
+a:hover {color:#00c40b}
+
+h1{
+    font-size : 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing : 4px;
+    margin-top: 20px;
+    margin-bottom : 0px;
+}
+
+p{
+    text-align : center;
+    margin-top : 5px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.board{
+    width : 600px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+}
+
+.card{
+    width : 125px;
+    height : 125px;
+    display : inline-block;
+    margin : 3px;
+    background-image : url("images/default.png");
+    background-position : center;
+    background-size : contain;
+    border : 3px dashed #179553;
+    border-radius : 4px;
+    cursor : pointer;
+    filter : brightness(80%);
+    transition : all .2s ease-in-out;
+    
+}
+.card:hover{
+    border : 3px dashed #dcff16;
+    filter : brightness(100%);
+}
+
+.score{
+    margin : 2px;
+}
